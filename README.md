@@ -20,6 +20,7 @@ Number of Web Hits: 160858
 
 The following is my run_analysis.R code
 
+```
 #Set working directory
 setwd("C:/Users/C16Taiylar.Mastey/Desktop/Math 378/GettingCleaningData/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
 
@@ -67,7 +68,7 @@ tidyData <- aggregate(. ~ Subject+Activity, data = meanSDonly, FUN = function(me
 
 #create the text file
 write.table(tidyData, file = "tidyData.txt", row.names = F)
-
+```
 =============================================================================================================
 
 Code Book
