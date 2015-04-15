@@ -1,15 +1,6 @@
-```
-###GettingAndCleaningDataProject
-#####Course Project - Getting and Cleaning Data
+###Code Book
 
-The data came from a study of Human Activity Recognition Using Smartphones Data Set.
-30 volunteers were studied from 19 to 48 years of age and each of them performed activities with Samsung Galaxy S II's on their waist.
-
-The following is information about the data used: Data Set Characteristics: Multivariate, Time-Series Attribute Characteristics: N/A Associated Tasks: Classification, Clustering Number of Instances: 10299 Number of Attributes: 561 Missing Values: None Area: Computer Date Donated: 2012-12-10 Number of Web Hits: 160858
-
-Code Book
-
-#The following variables were used as activity labels: WALKING WALKING_UPSTAIRS WALKING_DOWNSTAIRS SITTING
+The following variables were used as activity labels: WALKING WALKING_UPSTAIRS WALKING_DOWNSTAIRS SITTING
 STANDING LAYING
 
 The following variables were used as column labels in order to determine what happened to each individual during each excersize: "Subject" "Activity"
@@ -46,4 +37,3 @@ The following variables were used as column labels in order to determine what ha
 [63] "fBodyBodyAccJerkMag-mean()" "fBodyBodyAccJerkMag-std()"
 [65] "fBodyBodyGyroMag-mean()" "fBodyBodyGyroMag-std()"
 [67] "fBodyBodyGyroJerkMag-mean()" "fBodyBodyGyroJerkMag-std()"
-```
